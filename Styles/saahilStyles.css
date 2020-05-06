@@ -1,0 +1,28 @@
+
+h2{
+    text-align: center;
+    color:purple;
+}
+
+h3{
+    text-align: center;
+    color: green;
+}
+
+a:hover{
+    color: red;
+}
+
+.colorChange{
+    color: dodgerblue;
+}
+
+#differentColor{
+    color: violet; 
+}
+
+.imageCenter{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
