@@ -5,10 +5,9 @@ h2{
 }
 
 h3{
-    text-align: center;
     color: green;
 }
-
+    
 a:hover{
     color: red;
 }
@@ -25,10 +24,19 @@ a:hover{
     color: violet; 
 }
 
+#differentColor2{
+    color: rgba(150, 4, 4, 0.842); 
+}
+
 .imageCenter{
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.imageRight{
+    display: block;
+    float: right;
 }
 
 *{
