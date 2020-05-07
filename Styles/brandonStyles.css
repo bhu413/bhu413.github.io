@@ -1,0 +1,38 @@
+body {
+    background: linear-gradient(#80e1ff, #d9f6ff);
+}
+
+h2 {
+    color: #00588f;
+    font-size: 30px
+}
+
+h3 {
+    color: #00588f;
+}
+
+.table, th, td {
+    border: 1px solid black;
+}
+
+#title {
+    background-color: #35a5f0;
+    font-size: large;
+    text-align: center;
+}
+
+#dogpic {
+    width: 500px;
+    height: 400px;
+    border-radius: 70%;
+}
+
+.albumimg {
+    float: left;
+    width: 12.5%;
+
+    opacity: 0.5;
+}
+.albumimg:hover {
+    opacity: 1;
+}
