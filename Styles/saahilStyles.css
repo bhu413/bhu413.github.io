@@ -17,6 +17,10 @@ a:hover{
     color: dodgerblue;
 }
 
+.colorChange2{
+    color: #ff9900;
+}
+
 #differentColor{
     color: violet; 
 }
@@ -31,10 +35,9 @@ a:hover{
     box-sizing: border-box;
 }
 
-
 .column{
     float: left;
-    width: 50%;
+    width: 33.33%;
     padding: 5px;
 }
 
@@ -46,4 +49,8 @@ a:hover{
 
 #pictureColorChange{
     filter: grayscale(75%);
+}
+
+#pictureColorChange2{
+    filter: invert(100%);
 }
