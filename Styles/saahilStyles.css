@@ -1,12 +1,19 @@
+h1{
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+}
 
 h2{
     text-align: center;
     color:purple;
 }
 
+
 h3{
-    color: green;
+    color: #CAB600;
 }
+
     
 a:hover{
     color: red;
