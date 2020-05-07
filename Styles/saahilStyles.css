@@ -1,0 +1,69 @@
+h1{
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+    color:purple;
+}
+
+h3{
+    color: #CAB600;
+}
+  
+a:hover{
+    color: red;
+}
+
+.colorChange{
+    color: dodgerblue;
+}
+
+.colorChange2{
+    color: #ff9900;
+}
+
+#differentColor{
+    color: violet; 
+}
+
+#differentColor2{
+    color: rgba(150, 4, 4, 0.842); 
+}
+
+.imageCenter{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.imageRight{
+    display: block;
+    float: right;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.column{
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#pictureColorChange{
+    filter: grayscale(75%);
+}
+
+#pictureColorChange2{
+    filter: invert(100%);
+}

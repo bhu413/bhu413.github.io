@@ -8,49 +8,91 @@
     <div style="background-color: rgb(245, 248, 211);">
         <div style="background-color:purple">
             
-            <h1><span style = "color:whitesmoke">Saahil Vasdev</span></h1> 
+            <h1><span style = "color:whitesmoke">Saahil Vasdev &#128526;</span></h1> 
         </div>
-        
-    
+
+        <style>
+            .alignIntro{
+                text-align:center;
+            }
+        </style>
+
         <div>
-            <h2><span style = "color:purple">About me</span></h2> 
+            <h2 align = "center">About me</h2> 
         
-            <p>
+            <p class = "alignIntro">
                 I am currently a sophomore at the University of Washington Bothell studying Computer Science &
                 Software Engineering. I am looking forward to build onto my foundation and expanding into areas 
                 that involve product vision and developing.
             </p>
             
-            <p>
+            <p class = "alignIntro">
                 I'm a big fan of sports especially basketball. I've been playing basketball since I was 5 years old. You
                 can always catch me at LA Fitness shooting some ball. As you can see from the photo, I am a big Lakers fan.
                 The mural was painted by Los Angeles artist <a href = "https://www.instagram.com/gz.jr/?hl=en"><strong>Gustavo Zermeño Jr.</strong></a> 
                 when LeBron James just signed with the Lakers.
             </p>
-            
-            <img src = "Media/LA.jpg" width = "500" alt="A picture of Saahil at a Lakers mural" title="Lakers Mural">
+
+            <div class = "row">
+                <div class = "column">
+                    <img src = "Media/LA.jpg" width = "500" alt="A picture of Saahil at a Lakers mural" title="Lakers Mural">
+                </div>
+                <div class = "column" id = "pictureColorChange">
+                    <img src = "Media/LA.jpg" width = "500" alt="Altered picture Lakers mural" title="Grayscaled Lakers Mural">
+                </div>
+                <div class = "column" id = "pictureColorChange2">
+                    <img src = "Media/LA.jpg" width = "500" alt="Altered picture Lakers mural" title="Inverted Lakers Mural">
+                </div>
+                <p style = "text-align: center;"><strong> The photo on the left is the original photo, the middle photo is altered by changing the grayscale, and the photo on the right is altered by inverting. </strong></p>
+             </div>
             <p>
                 I've been gaming since I was a little kid. My gaming journey all started with a Nintendo 64. When I was given
                 Super Mario 64, I was hooked. Ever since then, I've been playing video games. Recently, I've had the chance in playing
                 Warzone and Valorant which have turned out to be very enjoyable games during the quarantine. 
-            </p>                    
+            </p> 
+                             
+            <style type = "text/css">
+            .blurOut img{
+                transition: all 1s ease;
+                -webkit-filter: blur(25px);
+                border: 5px solid black;
+                filter: blur(25px);
+                margin-left: 20px;
+                margin-bottom: 20px;
+            }
+            .blurOut img:hover{
+                -webkit-filter:blur(0px);
+                filter: blur(0px);
+            }
+            </style>
+
+            <div class = "blurOut">
+                <img src = "Media/swag.png" width = "400" alt = "A picture of the music I'm listening to right now" title = "Clinton Swag" style = "float: right;" margin-right: 10px; margin-bottom: 5px>
+            </div>
+            
+
             <p>My favorite games of all-time:</p>
             
-            <ol>
-                <li>Super Mario Sunshine</li>
+            <ol class = "colorChange">
+                <li id = "differentColor">Super Mario Sunshine</li>
                 <li>Super Mario 64</li>
-                <li>Legend of Zelda: Ocarina of Time</li>
+                <li id = "differentColor">Legend of Zelda: Ocarina of Time</li>
                 <li>Red Dead Redemption 2</li>
-                <li>GTA V</li>
+                <li id = "differentColor">GTA V</li>
 
             </ol>
+
+            <p style = "font-size: 35px; font-family: cursive; text-align: center;">
+                Hover your mouse over the blurred image to see a suprise ------------------------------->
+            </p>
+
             <p>Here are some of the music artists I listen to:</p>
             
-            <ul>
+            <ul class = "colorChange2">
                 <li>Kanye West</li>
-                <li>Jay-Z</li>
+                <li id = "differentColor2">Jay-Z</li>
                 <li>Travis Scott</li>
-                <li>Lil Uzi Vert</li>
+                <li id = "differentColor2">Lil Uzi Vert</li>
             </ul>
             </p>
             
@@ -89,7 +131,7 @@
                 Netflix called <em>Trailer Park Boys.</em> If you are into comedy I would totally recommend this show to you.
             </p>
 
-            <h3><span style = "color:purple">What I want to learn</span></h3> 
+            <h3>What I want to learn</h3> 
             <p>
                 Having the opportunity to learn languages such as Java, C#, & C++, learning HTML and CSS was something I've always wanted to learn. When I was selecting courses
                 for this quarter, I was so glad that UWB offered a class that highlighted the basics of HTML and CSS. With the skills
@@ -98,7 +140,7 @@
             </p>
         
         
-            <h3><span style = "color:purple">Get in touch with me!</span></h3>
+            <h3>Get in touch with me!</h3>
             <p>
                 If you want to discuss anything, you can reach me through my email, <strong>skv21@uw.edu</strong>. You can keep up to date with my <a href = "https://github.com/saahilvasdev">GitHub</a> 
                 account to see what coding projects I'm currently working on. If you have a <a href = "http://linkedin.com/in/saahil-vasdev">LinkedIn</a>, please connect with me on there as I look 
