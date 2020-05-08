@@ -1,3 +1,8 @@
+body{
+    background: rgb(245, 248, 211)
+}
+
+
 h1{ /* This changes all h1 elements to bold, 50px size, and aligned in the center of the page */
     font-weight: bold;
     font-size: 50px;
