@@ -3,34 +3,40 @@
     <head> 
         <title>Brandon's Page</title>
         <link rel = "stylesheet" href = "Styles/brandonStyles.css">
+        <style>
+            /* bolds the first column of the contact table */
+            td:first-child {
+                font-weight: bold;
+            }
+        </style>
     </head>
 
-    <!-- Added a color for the whole page -->
-    <div style="background-color:#d9f6ff">
-        <!-- Added a color for heading to stand out -->
-        <div style="background-color:#35a5f0">
+    <div>
+        <!-- Using title ID -->
+        <div id="title">
             <h1>Brandon Hu</h1>
         </div>
 
         <div>
-            <span style="color:#00588f"><h2>About me</h2></span>
+            <h2>About me</h2>
             <!-- Table for contact info to be neatly organized -->
             <h3>Contact Info</h3>
-            <table border="1" width="375">
+            <!-- Using table class -->
+            <table class="table" width="375">
                 <tr>
-                    <td><strong>Email</strong></td>
+                    <td>Email</td>
                     <td>bhu413@gmail.com</td>
                 </tr>
                 <tr>
-                    <td><strong>Discord</strong></td>
+                    <td>Discord</td>
                     <td>bhu413#8812</td>
                 </tr>
                 <tr>
-                    <td><strong>LinkedIn</strong></td>
+                    <td>LinkedIn</td>
                     <td><a href="https://www.linkedin.com/in/bhu413/">https://www.linkedin.com/in/bhu413/</a></td>
                 </tr>
                 <tr>
-                    <td><strong>Github</strong></td>
+                    <td>Github</td>
                     <td><a href="https://github.com/bhu413">https://github.com/bhu413</a></td>
                 </tr>
             </table>
@@ -40,7 +46,7 @@
                 and I have experience with Java and C++. Currently, I am working at the UW/Cascadia College as 
                 a student tech consultant where I help patrons with printing and common computer issues.
             </p>
-            
+
             <p>Here are a few classes I have taken:</p>
             <ul>
                 <li>CSS 142 & 143</li>
@@ -60,15 +66,18 @@
                 <!-- Using span to show favorite color. -->
                 <!-- Using strong to make it bold so it is easier to tell -->
                 <strong>
-                    <span style="color:#04bac7">Also, this is my favorite color (or close to it at least).</span>
+                    <span style="color:#00a7da">Also, this is my favorite color (or close to it at least).</span>
                 </strong>
             </p>
             
-            <span style="color: #00588f"><h3>Here is my dog Coco:</h3></span>
-            <img src="Media/Brandons_Dog.jpg" width="500" alt="A picture of Brandon's Dog named Coco" title="Coco">
+            <h3>Here is my dog Coco:</h3>
+            <!-- Trying to change pic when hovered -->
+            <!-- Using id with external css -->
+            <img id="dogpic" src = "Media/Brandons_Dog.jpg" alt=" A picture of Brandon's Dog">
+            
             
             <!-- Numbered list -->
-            <h3><span style="color: #00588f">Five songs I like at the moment</span></h3>
+            <h3>Five songs I like at the moment</h3>
             <ol>
                 <li>Atoms - Said the Sky Remix by RL Grime, Jeremy Zucker, Said the Sky</li>
                 <li>Higher Ground (feat. Naomi Wild) by ODESZA, Naomi Wild</li>
@@ -76,6 +85,21 @@
                 <li>Down Below by Roddy Rich</li>
                 <li>Best Part (feat. H.E.R.) by Daniel Caesar, H.E.R.</li>
             </ol>
+            <div class="albumimg">
+                <img src="Media/Album Art/nova.jpg" width="200" alt="NOVA by RL Grime">
+            </div>
+            <div class="albumimg">
+                <img src="Media/Album Art/a moment apart.jpg" width="200" alt="A Moment Apart by ODESZA">
+            </div>
+            <div class="albumimg">
+                <img src="Media/Album Art/bobby tarantino.jpg" width="200" alt="Bobby Tarantino II by Logic">
+            </div>
+            <div class="albumimg">
+                <img src="Media/Album Art/down below.jpg" width="200" alt="Down Below by Roddy Rich">
+            </div>
+            <div class="albumimg">
+                <img src="Media/Album Art/Freudian.jpg" width="200" alt="Freudian by Daniel Caesar">
+            </div>
         </div>
     </div>
 </html>
